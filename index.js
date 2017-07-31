@@ -2,8 +2,8 @@ const submit = document.getElementById('submit')
 
 const handler = function() {
   var string = document.getElementById('string').value
-  var salt = document.getElementById('salt').value
-  var key = document.getElementById('key').value
+  //var salt = document.getElementById('salt').value
+  //var key = document.getElementById('key').value
 
   // TODO: algorithm
 }
