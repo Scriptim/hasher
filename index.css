@@ -41,3 +41,18 @@ header > button {
 header > button:hover {
   background-color: #f0f0f0;
 }
+
+main {
+  padding: 2em 10em;
+  margin-top: 20vh;
+}
+
+main > p {
+  word-break: break-all;
+}
+
+main > p > b {
+  color: #2e2e2e;
+  line-height: 2em;
+  font-size: 1.2em;
+}
