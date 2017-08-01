@@ -6,7 +6,7 @@ https://the-morpheus.de/Tools/index.php
  
 ---
  
-##Currently supported hash functions
+## Currently supported hash functions
 http://php.net/manual/en/function.hash-algos.php
 
 **PHP 7.1.7:**
