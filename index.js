@@ -1,13 +1,13 @@
 const submit = document.getElementById('submit')
 const main = document.getElementsByTagName('main')[0];
 
-const handler = function() {
+const handler = function () {
   var string = encodeURIComponent(document.getElementById('string').value)
   //var salt = encodeURIComponent(document.getElementById('salt').value)
   //var key = encodeURIComponent(document.getElementById('key').value)
 
   var request = new XMLHttpRequest()
-  request.onload = function() {
+  request.onload = function () {
     if (this.status !== 200) {
       alert('An error occured')
       return
