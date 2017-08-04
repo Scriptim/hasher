@@ -3,6 +3,8 @@
 Generate hashes for a string
 
 https://the-morpheus.de/Tools/index.php
+
+![Screenshot](./screenshot.jpg "Screenshot")
  
 ---
  
