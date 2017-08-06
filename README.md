@@ -11,7 +11,7 @@ https://the-morpheus.de/Tools/index.php
 ## Currently supported hash functions
 http://php.net/manual/en/function.hash-algos.php
 
-**PHP 7.1.7:**
+**PHP 5.6+:**
 - `md2`, `md4`, `md5`
 - `sha1`, `sha224`, `sha356`, `sha384`, `sha512/224`, `sha512/256`, `sha512`, `sha3-224`, `sha3-256`, `sha3-384`, `sha3-512`
 - `ripemd128`, `ripemd160`, `ripemd256`, `ripemd320`
