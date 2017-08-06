@@ -60,7 +60,7 @@ main > p > b {
   font-size: 1.2em;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
   header {
     height: 12em;
   }
@@ -78,9 +78,9 @@ main > p > b {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
   header {
-    height: 14em;
+    height: 17em;
   }
 
   header > input {

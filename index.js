@@ -4,7 +4,7 @@ const main = document.getElementsByTagName('main')[0];
 const handler = function () {
   var string = encodeURIComponent(document.getElementById('string').value)
   var salt = encodeURIComponent(document.getElementById('salt').value)
-  //var key = encodeURIComponent(document.getElementById('key').value)
+  var key = encodeURIComponent(document.getElementById('key').value)
 
   if (salt) {
     string = salt + string;
@@ -18,8 +18,7 @@ const handler = function () {
     }
     main.innerHTML = this.responseText
   };
-  //request.open('GET', 'hash.php?str=' + string + '&key=' + key)
-  request.open('GET', 'hash.php?str=' + string)
+  request.open('GET', 'hash.php?str=' + string + '&key=' + key)
   request.send()
 }
 
