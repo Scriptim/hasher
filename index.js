@@ -1,5 +1,5 @@
 const submit = document.getElementById('submit')
-const main = document.getElementsByTagName('main')[0];
+const main = document.getElementsByTagName('main')[0]
 
 const handler = function () {
   var string = encodeURIComponent(document.getElementById('string').value)
@@ -7,7 +7,7 @@ const handler = function () {
   var key = encodeURIComponent(document.getElementById('key').value)
 
   if (salt) {
-    string = salt + string;
+    string = salt + string
   }
 
   var request = new XMLHttpRequest()
@@ -17,7 +17,7 @@ const handler = function () {
       return
     }
     main.innerHTML = this.responseText
-  };
+  }
   request.open('GET', 'hash.php?str=' + string + '&key=' + key)
   request.send()
 }
