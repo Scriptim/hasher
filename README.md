@@ -2,7 +2,7 @@
  
 Generate hashes for a string
 
-https://the-morpheus.de/Tools/index.php
+**Try it:** https://the-morpheus.de/Tools/hasher/index.php
 
 ![Screenshot](./screenshot.jpg "Screenshot")
  
