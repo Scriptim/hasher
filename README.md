@@ -1,17 +1,19 @@
 # Hasher
- 
+
 Generate hashes for a string
 
-**Try it:** https://the-morpheus.de/Tools/hasher/index.php
+<!-- **Try it:** <https://the-morpheus.de/Tools/hasher/index.php> -->
 
 ![Screenshot](./screenshot.jpg "Screenshot")
- 
----
- 
-## Currently supported hash functions
-http://php.net/manual/en/function.hash-algos.php
 
-**PHP 7.1+:**
+---
+
+## Currently supported hash functions
+
+<http://php.net/manual/en/function.hash-algos.php>
+
+### PHP 7.1+
+
 - `md2`, `md4`, `md5`
 - `sha1`, `sha224`, `sha356`, `sha384`, **`sha512/224`**, **`sha512/256`**, `sha512`, **`sha3-224`**, **`sha3-256`**, **`sha3-384`**, **`sha3-512`**
 - `ripemd128`, `ripemd160`, `ripemd256`, `ripemd320`
@@ -25,7 +27,8 @@ http://php.net/manual/en/function.hash-algos.php
 - `joaat`
 - `haval128,3`, `haval160,3`, `haval192,3`, `haval224,3`, `haval256,3`, `haval128,4`, `haval160,4`, `haval192,4`, `haval224,4`, `haval256,4`, `haval128,5`, `haval160,5`, `haval192,5`, `haval224,5`, `haval256,5`
 
-**PHP 5.6+:**
+### PHP 5.6+
+
 - `md2`, `md4`, `md5`
 - `sha1`, `sha224`, `sha356`, `sha384`, `sha512`
 - `ripemd128`, `ripemd160`, `ripemd256`, `ripemd320`
