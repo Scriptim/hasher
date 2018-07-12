@@ -1,12 +1,15 @@
 <?php
-if ($_GET['key']) {
-    foreach (hash_algos() as $algo) {
+foreach (hash_algos() as $algo) {
+    if ($_GET['key']) {
         $hash = hash_hmac($algo, $_GET['str'], $_GET['key'], false);
-        echo('<p><b>'.$algo.'</b><br>'.$hash.'</p>');
-    }
-} else {
-    foreach (hash_algos() as $algo) {
+    } else {
         $hash = hash($algo, $_GET['str'], false);
-        echo('<p><b>'.$algo.'</b><br>'.$hash.'</p>');
     }
+
+    if ($hash == '') {
+        $hash = '<i>(does not support HMAC)</i>';
+    }
+
+    echo('<p><b>'.$algo.'</b><br>'.$hash.'</p>');
 }
+?>
